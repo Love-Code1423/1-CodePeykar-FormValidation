@@ -1,0 +1,97 @@
+/* Start */
+
+
+:root {
+    --color_fff: #fff;
+    --color_2B3238: #2B3238;
+    --color_3A4149: #3A4149;
+    --color_EA4C87: #EA4C87;
+    --color_373E46: #373E46;
+    --color_363B41: #363B41;
+    --color_5f5f5f: #4d4d4dd8;
+    --color_000: #000;
+}
+
+*,
+* ::after,
+* ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color_000);
+}
+
+img {
+    width: 100%;
+}
+
+/* main */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--color_2B3238);
+    font-size: 14px;
+}
+
+.container {
+    text-align: center;
+}
+
+.Login_page {
+    border-radius: .625rem;
+    max-width: 18.75rem;
+    border-color: var(--color_3A4149);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .75rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    background-color: var(--color_5f5f5f);
+    border-radius: 5px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding-left: .5rem;
+    height: 2.75rem;
+    background-color: var(--color_3A4149);
+    color: var(--color_fff);
+}
+
+.Icon {
+    width: 1.5rem;
+    padding: 3px;
+    margin: 6px 6px;
+}
+
+.button_input {
+    background-color: var(--color_EA4C87);
+    color: var(--color_fff);
+    width: 100%;
+    border: none;
+    padding: .625rem;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 2.75rem;
+    cursor: pointer;
+}
